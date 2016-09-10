@@ -1,0 +1,10 @@
+
+
+from SteamScraper import *
+
+API_KEY = '1111111111111111111111111111'
+FIRST_STEAM_ID = 7611111111111111111111
+
+ss = SteamScraper(API_KEY)
+
+ss.startWithFirstUser(API_KEY, FIRST_STEAM_ID)
